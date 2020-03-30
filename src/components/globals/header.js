@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import { FiX } from "react-icons/fi"
 import { FiMenu } from "react-icons/fi"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
-import "./styles/header.css"
+import "../styles/header.css"
 
 export default class Header extends Component {
   state = {
@@ -50,6 +50,11 @@ export default class Header extends Component {
                 <a href="#about" className="nav-link">
                   ABOUT
                 </a>
+              </li>
+              <li className="nav-item">
+                <Link to="/project" className="nav-link">
+                  PROJECT
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link">

@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Header from "./header"
+import Header from "./globals/header"
 import "./styles/layout.css"
 import "./styles/switch.css"
 
@@ -20,7 +20,6 @@ if (typeof window !== "undefined") {
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
       {children}
       <footer>
         © {new Date().getFullYear()}, Built with

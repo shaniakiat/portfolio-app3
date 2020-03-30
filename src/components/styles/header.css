@@ -104,12 +104,24 @@ nav {
   }
 
   .nav-item {
-    margin: 0 3rem;
+    margin: 0 1.5rem;
+  }
+
+  .nav-item:hover {
   }
 
   .nav-link {
     color: var(--textLink);
     position: relative;
     font-size: 1rem;
+    padding: 0.5rem;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+
+  .nav-link:hover {
+    color: var(--bg) !important;
+    background-color: var(--textNormal);
+    border-radius: 5px;
   }
 }

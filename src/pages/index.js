@@ -1,17 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Home from "../components/home"
+import Home from "../components/globals/home"
+import About from "../components/globals/about"
+import Header from "../components/globals/header"
 import "../components/styles/layout.css"
 
 const IndexPage = () => (
   <div className="container">
     <Layout>
       <SEO title="Home" />
+      <Header />
       <Home />
-      {/* <Link to="/page-2/">Go to page 2</Link> */}
+      <About />
     </Layout>
   </div>
 )
