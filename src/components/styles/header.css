@@ -79,12 +79,8 @@ nav {
 }
 
 @media screen and (min-width: 700px) {
-  header {
-    width: 8rem;
-  }
-
   .logo {
-    width: 3.5rem;
+    width: 4rem;
   }
 
   .nav-list {
