@@ -24,7 +24,7 @@ export default class Header extends Component {
         <div className="container">
           <nav>
             <div className="logo">
-              <a href="/">SK.</a>
+              <a href="/">SK</a>
             </div>
 
             <div className="open" onClick={this.navbarHandler}>

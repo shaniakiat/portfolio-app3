@@ -15,11 +15,11 @@ const Project = () => (
             <a href="/">SK.</a>
           </div>
 
-          <div className="go-home">
+          {/* <div className="nav-tem">
             <Link to="/" className="nav-link">
-              <FaHome />
+              HOME
             </Link>
-          </div>
+          </div> */}
 
           <div>
             <ThemeToggler>

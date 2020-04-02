@@ -62,8 +62,7 @@ section {
   padding: 5rem 0;
 }
 
-.container,
-header.container {
+.container {
   width: 100%;
   max-width: 50rem;
   margin: 0 auto;
@@ -74,4 +73,38 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: var(--textLink) !important;
+}
+
+@media screen and (max-width: 1024px) {
+  p,
+  a.link-p {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p,
+  a.link-p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  p,
+  a.link-p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  p,
+  a.link-p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  p,
+  a.link-p {
+    font-size: 0.5rem;
+  }
 }

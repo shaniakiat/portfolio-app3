@@ -13,7 +13,7 @@ header {
   font-weight: 700;
   color: var(--textTitle) !important;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .FiX {
@@ -46,6 +46,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+  padding-top: 1.5rem;
 }
 
 .nav-list {
@@ -103,9 +104,6 @@ nav {
     margin: 0 1.5rem;
   }
 
-  .nav-item:hover {
-  }
-
   .nav-link {
     color: var(--textLink);
     position: relative;
@@ -119,5 +117,33 @@ nav {
     color: var(--bg) !important;
     background-color: var(--textNormal);
     border-radius: 5px;
+  }
+}
+/* @media screen and (max-width: 1024px) {
+  .main-message p {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-message p {
+    font-size: 2.2rem;
+  }
+} */
+
+@media screen and (max-width: 550px) {
+  .logo a {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo a {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  .logo a {
+    font-size: 1.3rem;
   }
 }

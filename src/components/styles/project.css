@@ -1,7 +1,12 @@
 @import url("layout.css");
 
-.project-nav {
+.go-home {
+  fill: var(--textNormal);
+  width: 34px;
+  height: 34px;
+  transition: 0.5s;
 }
+
 .project-h1 {
   text-align: center;
 }
@@ -26,4 +31,13 @@
 
 .project-img {
   width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
 }
