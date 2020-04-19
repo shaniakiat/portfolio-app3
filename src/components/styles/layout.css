@@ -82,6 +82,7 @@ footer {
 
 footer a {
   font-family: "Inconsolata", monospace;
+  font-weight: 200;
 }
 
 /* @media screen and (max-width: 1024px) {

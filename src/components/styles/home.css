@@ -56,6 +56,7 @@
 
 .resume-home {
   font-family: "Inconsolata", monospace;
+  font-weight: 200;
   color: var(--bg) !important;
   font-size: 1.3rem;
   text-decoration: none;
