@@ -12,7 +12,7 @@ const Project = () => (
       <div className="container">
         <nav className="project-nav">
           <div className="logo">
-            <a href="/">SK.</a>
+            <a href="/">SK</a>
           </div>
 
           {/* <div className="nav-tem">

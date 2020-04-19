@@ -18,7 +18,7 @@ a:hover {
 
 .center {
   /* background-color: rgb(255, 255, 255); */
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
   width: 100%;
   display: inline-block;
   vertical-align: top;
