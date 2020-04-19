@@ -1,0 +1,20 @@
+#contact {
+  align-items: right;
+}
+
+#contact h1 {
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+#contact p {
+  text-align: right;
+}
+
+#contact p a {
+  font-family: "Inconsolata", monospace;
+}
+
+.networks {
+  padding: 10px 0;
+}

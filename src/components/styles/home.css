@@ -22,7 +22,7 @@
   font-size: 2rem;
   color: var(--bg);
   transition: 0.5s;
-  padding: 5% 0;
+  /* padding: 2% 0; */
 }
 
 .icons {
@@ -54,9 +54,40 @@
   box-shadow: 0 0 15px var(--textNormal);
 }
 
+.resume-home {
+  font-family: "Inconsolata", monospace;
+  color: var(--bg) !important;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+a.resume-home:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 3px solid var(--bg);
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.resume-home:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 @media screen and (max-width: 1024px) {
   .main-message p {
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
 }
 
@@ -64,11 +95,17 @@
   .main-message p {
     font-size: 2.2rem;
   }
+  .resume-home {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .main-message p {
     font-size: 1.3rem;
+  }
+  .resume-home {
+    font-size: 1.1rem;
   }
 }
 
@@ -76,9 +113,15 @@
   .main-message p {
     font-size: 1.17rem;
   }
+  .resume-home {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 330px) {
   .main-message p {
     font-size: 1rem;
+  }
+  .resume-home {
+    font-size: 0.8rem;
   }
 }

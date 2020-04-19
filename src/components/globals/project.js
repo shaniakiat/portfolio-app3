@@ -49,10 +49,15 @@ const Project = () => (
         <h1 className="project-h1">Featured Projects</h1>
         <div className="grid">
           <div className="left-content">
-            <img src={VirtualChef} className="project-img"></img>
+            <a href="https://www.virtualchef.live" target="_blank">
+              <img src={VirtualChef} className="project-img"></img>
+            </a>
           </div>
           <div className="right-content">
-            <h3>Virtual Chef</h3>
+            <a href="https://www.virtualchef.live" target="_blank">
+              <h3>Virtual Chef</h3>
+            </a>
+
             <p className="project-p">
               Full-stack web application that suggests new foods using neural
               networks
@@ -61,13 +66,19 @@ const Project = () => (
         </div>
         <div className="grid">
           <div className="left-content">
-            <img src={Gratis} className="project-img"></img>
+            <a href="https://devpost.com/software/gratis" target="_blank">
+              <img src={Gratis} className="project-img"></img>
+            </a>
           </div>
           <div className="right-content">
-            <h3>Gratis</h3>
+            <a href="https://devpost.com/software/gratis" target="_blank">
+              <h3>Gratis </h3>
+            </a>
             <p className="project-p">
               Gratis helps connect local Philadelphia restaurants with surplus
               food to shelters in the area to provide food for those in need.
+              <br />
+              🏆 HackWCU 🏆
             </p>
           </div>
         </div>

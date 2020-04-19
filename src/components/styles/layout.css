@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
 *,
 *::before,
 *::after {
@@ -11,6 +13,7 @@ html {
 }
 body {
   --bg: #d9e3f5;
+  --bw: black;
   --textNormal: #676fb8;
   --textTitle: #030087;
   --textLink: #7388e8;
@@ -22,6 +25,7 @@ body {
 body.dark {
   -webkit-font-smoothing: antialiased;
   --bg: #1a1b1e;
+  --bw: white;
   --textNormal: #b5b3fa;
   --textTitle: #a4c2f8;
   --textLink: #676fb8;
@@ -70,17 +74,22 @@ section {
 }
 
 footer {
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: var(--textLink) !important;
 }
 
-@media screen and (max-width: 1024px) {
+footer a {
+  font-family: "Inconsolata", monospace;
+}
+
+/* @media screen and (max-width: 1024px) {
   p,
   a.link-p {
     font-size: 2.2rem;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   p,

@@ -8,11 +8,21 @@ const Home = () => (
     <div className="container">
       <div className="main-message">
         <p>
-          Hello!👋 <br></br>
-          <br></br>I'm <strong>Shania Kiat</strong>, an undergraduate student at
-          La Salle University majoring in computer science & minoring in
-          mathematics👩🏻‍💻
+          Hello!👋
+          <br />
+          <br />
+          I'm <strong>Shania Kiat</strong>, an undergraduate student at La Salle
+          University majoring in computer science & minoring in mathematics👩🏻‍💻
+          <br />
+          <br />
         </p>
+        <a
+          className="resume-home"
+          href="https://shaniakiat.dev/resume.pdf"
+          target="_blank"
+        >
+          shania.resume.pdf();
+        </a>
       </div>
       {/* <div className="icons">
         

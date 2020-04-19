@@ -24,7 +24,7 @@ export default class Header extends Component {
         <div className="container">
           <nav>
             <div className="logo">
-              <a href="/">SK</a>
+              <a href="/">SK.</a>
             </div>
 
             <div className="open" onClick={this.navbarHandler}>
@@ -43,24 +43,30 @@ export default class Header extends Component {
               </li>
               <li className="nav-item">
                 <a href="/" className="nav-link current">
-                  HOME
+                  Home
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#about" className="nav-link">
-                  ABOUT
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#contact" className="nav-link">
+                  Contact
                 </a>
               </li>
               <li className="nav-item">
                 <Link to="/project" className="nav-link">
-                  PROJECT
+                  Project
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link">
-                  CONTACT
-                </a>
+                <Link to="/resume" className="nav-link">
+                  Resume
+                </Link>
               </li>
+
               <li className="nav-item">
                 <ThemeToggler>
                   {({ theme, toggleTheme }) => (

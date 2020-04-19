@@ -2,9 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import Header from "../components/globals/header"
 import Home from "../components/globals/home"
 import About from "../components/globals/about"
-import Header from "../components/globals/header"
+import Contact from "../components/globals/contact"
+
 import "../components/styles/layout.css"
 
 const IndexPage = () => (
@@ -14,6 +17,7 @@ const IndexPage = () => (
       <Header />
       <Home />
       <About />
+      <Contact />
     </Layout>
   </div>
 )

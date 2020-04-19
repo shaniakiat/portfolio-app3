@@ -1,0 +1,311 @@
+@import url("layout.css");
+
+#resume {
+  font-family: "Open Sans", sans-serif;
+}
+
+#resume ul {
+  font-weight: 400 !important;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--textTitle);
+  text-decoration: none;
+}
+
+.center {
+  /* background-color: rgb(255, 255, 255); */
+  background-color: var(--bg);
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.center-inner {
+  /* padding: 60px 120px; */
+}
+
+.center-inner-inner {
+  padding: 20px;
+  /* background: #f5f6ff; */
+}
+
+@media screen and (max-width: 400px) {
+  .center-inner {
+    padding: 30px;
+  }
+  .center-inner-inner {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .center {
+    display: block;
+    width: 100%;
+  }
+}
+
+.center {
+  float: center;
+}
+
+.center a {
+  /* color: #000; */
+  color: var(--mainLink);
+}
+
+.center h4,
+.center .content {
+  display: inline-block;
+  vertical-align: top;
+  color: var(--textTitle);
+}
+
+.introduction h4 {
+  width: 100%;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  /* background-color: #a53c2e; */
+  background-color: var(--textTitle);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center ul {
+  padding: 0;
+  margin: 0;
+}
+
+.center .content {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 50px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  .center h4,
+  .center .content {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .center-inner {
+    padding: 18px;
+    padding-bottom: 25px;
+  }
+  .center a.resume {
+    margin-bottom: 20px;
+  }
+}
+
+.center .content ul.description {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.center .introduction .intro-p:first-of-type {
+  margin-top: 0;
+}
+
+.center .introduction .job-pls {
+  font-weight: 500;
+  /* background-color: #2a54f5; */
+  background-image: -webkit-linear-gradient(
+    45deg,
+    var(--textTitle) 0%,
+    var(--textTitle) 100%
+  );
+  background-image: linear-gradient(
+    45deg,
+    var(--textTitle) 0%,
+    var(--textTitle) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.center .skills .skill-category {
+  margin-bottom: 10px;
+}
+
+.center .skills .skill-category:last-of-type {
+  margin-bottom: 0px;
+}
+
+.center .skills .skill-category > strong {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.center .awards .achivement {
+  margin-bottom: 10px;
+}
+
+.center .awards .achivement:last-of-type {
+  margin-bottom: 0px;
+}
+
+.center .awards .achivement > strong {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.center .education {
+  font-size: 16px;
+}
+
+.center .education .university {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.center .education .college {
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.center .education .major,
+.center .education .degree,
+.center .education .conc,
+.center .education .study-abroad {
+  font-size: 15px;
+}
+
+.center .education .major > strong,
+.center .education .degree > strong,
+.center .education .conc > strong,
+.center .education .study-abroad > strong {
+  font-weight: 500;
+}
+
+.center .education .study-abroad {
+  margin-top: 10px;
+}
+
+.center .education .grad-date {
+  text-transform: uppercase;
+  color: var(--textNormal);
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.center .experience .exp-item {
+  margin-bottom: 30px;
+}
+
+.center .experience .exp-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.center .experience .exp-item .job {
+  margin: 0;
+  font-weight: 700;
+}
+
+.center .experience .exp-item .duration {
+  font-size: 13px;
+  font-weight: 500;
+  float: center;
+  color: var(--bw);
+  text-transform: uppercase;
+  position: relative;
+  top: 1px;
+  margin-bottom: 5px;
+}
+
+.center .awards .achivement .page {
+  font-size: 13px;
+  font-weight: 500;
+  float: center;
+  color: var(--textNormal);
+  text-transform: uppercase;
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (max-width: 340px) {
+  .center .experience .exp-item .duration {
+    float: none;
+  }
+}
+
+.center .experience .exp-item .title {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.center .projects .project-item {
+  margin-bottom: 20px;
+}
+
+.center .projects .project-title {
+  font-weight: 700;
+}
+
+.center .projects .project-desc {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+/* .resume-div {
+  text-align: center;
+}
+.center a.resume {
+  color: var(--textTitle);
+  background-color: var(--textTitle);
+  font-size: 0.6rem;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+  background: linear-gradient(
+    to bottom,
+    var(--mainGreen) 0%,
+    var(--mainGreen) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: hsl(0, 0%, 100%);
+  transition: background-size 0.2s;
+  box-shadow: none;
+  border-image: none;
+  border-radius: 0;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
+}
+
+.center a.resume:hover {
+  box-shadow: none;
+  background-size: 4px 50px;
+} */
+
+/* .center a.resume:hover {
+  background-color: rgb(203, 85, 117);
+  box-shadow: 0 14px 28px rgba(235, 171, 145, 0.3),
+    0 10px 10px rgba(240, 179, 153, 0.3);
+} */
+
+/* .center a.resume .resume-link {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-image: -webkit-linear-gradient(45deg, #fff 0%, #fff 100%);
+  background-image: linear-gradient(45deg, #fff 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
