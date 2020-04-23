@@ -37,7 +37,7 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: var(--textTitle);
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -75,9 +75,10 @@ section {
 
 footer {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inconsolata", monospace;
   font-weight: 400;
   color: var(--textLink) !important;
+  margin-bottom: 10px;
 }
 
 footer a {
@@ -95,7 +96,7 @@ footer a {
 @media screen and (max-width: 768px) {
   p,
   a.link-p {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 
