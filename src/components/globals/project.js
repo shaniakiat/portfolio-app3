@@ -68,12 +68,12 @@ const Project = () => (
         </div>
         <div className="grid">
           <div className="left-content">
-            <a href="https://devpost.com/software/gratis" target="_blank">
+            <a href="https://shaniakiat.netlify.app" target="_blank">
               <img src={Portfolio} className="project-img"></img>
             </a>
           </div>
           <div className="right-content">
-            <a href="https://devpost.com/software/gratis" target="_blank">
+            <a href="https://shaniakiat.netlify.app" target="_blank">
               <h3>Personal Website V2 </h3>
             </a>
             <p className="project-p">
