@@ -7,11 +7,11 @@ const About = () => (
       <h1>About Me</h1>
 
       <p>
-        I'm currently a third year student at{" "}
+        I'm currently a third-year student at{" "}
         <a href="https://lasalle.edu" className="link-p">
           La Salle University
         </a>{" "}
-        in Philadelphia studying computer science and mathematics.
+        in Philadelphia, studying computer science and mathematics.
         <br />
         <br />
         My career goals include becoming a software engineer and working for a
@@ -26,7 +26,7 @@ const About = () => (
         <a href="https://hackwcu.org/" className="link-p">
           HackWCU
         </a>
-        , where my team won the first place🏆.
+        , where my team won first place🏆.
         <br />
         <br />
         My past involvement outside La Salle includes my role as the Creative

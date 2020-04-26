@@ -41,7 +41,7 @@ const Contact = () => (
         </a>
         <br />
         <a
-          href="https://www.behance.net/kshania987f1f"
+          href="https://www.behance.net/shaniakiat"
           target="_blank"
           className="link-p networks"
         >
