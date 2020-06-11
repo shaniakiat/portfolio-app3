@@ -13,7 +13,7 @@ import "../components/styles/layout.css"
 const IndexPage = () => (
   <div className="container">
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Computer Science Student" />
       <Header />
       <Home />
       <About />
