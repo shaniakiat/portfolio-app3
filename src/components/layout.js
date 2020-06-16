@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Header from "./globals/header"
 import "./styles/layout.css"
 import "./styles/switch.css"
 
@@ -24,7 +23,9 @@ const Layout = ({ children }) => {
       <footer>
         © {new Date().getFullYear()}, Designed by
         {` `}
-        <a href="https://www.shaniakiat.dev">Shania Kiat ☕️</a>
+        <a href="https://www.shaniakiat.dev">
+          Shania Kiat <span>☕️</span>
+        </a>
       </footer>
     </>
   )
