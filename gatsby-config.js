@@ -4,7 +4,7 @@ module.exports = {
     description: `Shania Kiat is an undergraduate student in La Salle University, PA majoring in computer science and minoring in mathematics.`,
     author: `@shaniakiat`,
     url: "https://www.shaniakiat.dev", // No trailing slash allowed!
-    image: "src/images/v3.png", // Path to your image you placed in the 'static' folder
+    image: "static/images/v3.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
