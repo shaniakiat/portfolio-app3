@@ -7,11 +7,23 @@ const About = () => (
       <h1>About Me</h1>
 
       <p>
-        I'm currently a third-year student at{" "}
+        I'm a senior at{" "}
         <a href="https://lasalle.edu" className="link-p">
           La Salle University
         </a>{" "}
         in Philadelphia, studying computer science and mathematics.
+        <br />
+        <br />
+        I'm currently doing my internship at{" "}
+        <a
+          href="https://investor.vanguard.com/corporate-portal/"
+          className="link-p"
+        >
+          Vanguard
+        </a>{" "}
+        as a Application Development Intern. Previously, I had internship as a
+        Predictive Analytics Intern at Tegra Analytics and Summer Undergraduate
+        Research at La Salle.
         <br />
         <br />
         My career goals include becoming a software engineer and working for a

@@ -54,10 +54,10 @@ const Resume = () => (
                     Philadelphia, majoring computer science and minoring in
                     mathematics
                   </p>
-
+                  {/* 
                   <span className="intro-p job-pls">
-                    I am an incoming Application Development Intern at Vanguard!
-                  </span>
+                    I am an Application Development Intern at Vanguard
+                  </span> */}
                 </div>
               </div>
               <div className="education">
