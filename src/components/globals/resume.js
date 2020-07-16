@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/resume.css"
+import { AiFillHome } from "react-icons/ai"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 const Resume = () => (
@@ -7,15 +8,11 @@ const Resume = () => (
     <header>
       <div className="container">
         <nav className="project-nav">
-          <div className="logo">
-            <a href="/">SK</a>
+          <div className="logo-svg">
+            <a href="/">
+              <AiFillHome />
+            </a>
           </div>
-
-          {/* <div className="nav-tem">
-            <Link to="/" className="nav-link">
-              HOME
-            </Link>
-          </div> */}
 
           <div>
             <ThemeToggler>
@@ -29,9 +26,9 @@ const Resume = () => (
                     checked={theme === "dark"}
                   />
                   {theme === "dark" ? (
-                    <span class="slider round"></span>
+                    <span className="slider round"></span>
                   ) : (
-                    <span class="slider round"></span>
+                    <span className="slider round"></span>
                   )}
                 </label>
               )}
@@ -40,31 +37,23 @@ const Resume = () => (
         </nav>
       </div>
     </header>
-    <section class="hero">
+    <section className="hero">
       <div id="resume" className="container">
         <div className="center">
           <div className="center-inner">
             <div className="center-inner-inner">
               <div className="introduction">
-                <h4>Intro</h4>
-                <div className="content">
-                  <p className="intro-p">Hi there, my name is Shania Kiat</p>
-                  <p className="intro-p">
-                    I&#39;m an undergraduate at La Salle University,
-                    Philadelphia, majoring computer science and minoring in
-                    mathematics
-                  </p>
-                  {/* 
-                  <span className="intro-p job-pls">
-                    I am an Application Development Intern at Vanguard
-                  </span> */}
-                </div>
+                <h4>Shania Kiat</h4>
               </div>
               <div className="education">
                 <h4>Education</h4>
                 <div className="content">
                   <div className="university">
-                    <a href="https://www.lasalle.edu/" target="_blank">
+                    <a
+                      href="https://www.lasalle.edu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       La Salle University
                     </a>
                   </div>
@@ -72,12 +61,14 @@ const Resume = () => (
                     <a
                       href="https://www.lasalle.edu/computer-science/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       School of Arts and Sciences / Computer Science
                     </a>
                   </div>
                   <div className="major">
-                    <strong>Majors:</strong> Computer Science & Mathematics{" "}
+                    <strong>Major:</strong> Computer Science <br />
+                    <strong>Minor:</strong> Mathematics{" "}
                   </div>
                   <div className="degree">
                     <strong>Degree:</strong> Bachelor of Science
@@ -89,9 +80,6 @@ const Resume = () => (
                 <h4>Relevant Coursework</h4>
                 <div className="content">
                   <ul className="description">
-                    <li>Data Communication Networks</li>
-                    <li>Computer Architecture</li>
-                    <li>Database Management Systems</li>
                     <li>Object Programming</li>
                     <li>Introduction to Data Structures and Algorithms</li>
                     <li>Software Engineering</li>
@@ -99,6 +87,9 @@ const Resume = () => (
                     <li>Theory of Algorithms</li>
                     <li>Language Theory and Design</li>
                     <li>Computer Electronics</li>
+                    <li>Data Communication Networks</li>
+                    <li>Computer Architecture</li>
+                    <li>Database Management Systems</li>
                     <li>Multivariable Calculus</li>
                     <li>Linear Algebra and Applications</li>
                     <li>Foundations of Mathematics</li>
@@ -118,6 +109,7 @@ const Resume = () => (
                         className="company"
                         href="https://www.tegraanalytics.com/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Tegra Analytics, LLC.
                       </a>
@@ -126,8 +118,14 @@ const Resume = () => (
                     <div className="title">Predictive Analytics Intern</div>
                     <ul className="description">
                       <li>
-                        Perform exploratory data analysis to maximize post
-                        engagements of the data
+                        Performed exploratory data analysis for 10,000+ doctors
+                        and Parkinson disease products to prepare for predictive
+                        modeling.
+                      </li>
+                      <li>
+                        Implemented machine learning algorithms such as Time
+                        Series and K-Means clustering in Python to target new
+                        customer groups for new Parkinson disease product.
                       </li>
                     </ul>
                   </div>
@@ -137,6 +135,7 @@ const Resume = () => (
                         className="company"
                         href="https://www.lasalle.edu/math-computer-science/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         La Salle Mathematics and Computer Science Department
                       </a>
@@ -147,9 +146,15 @@ const Resume = () => (
                     </div>
                     <ul className="description">
                       <li>
-                        Conduct research with Dr. Timothy Highley to determine
-                        the hardness of the tropical exchange problem where each
-                        person can bring multiple items to the trading venue.{" "}
+                        Conducted research with Dr. Timothy Highley based on his
+                        previous research: Tropical Vertex-Disjoint Cycles of a
+                        Vertex-Colored Digraph: Barter Exchange with Multiple
+                        Items Per Agent
+                      </li>
+                      <li>
+                        Applied reduction techniques based on other NP-Complete
+                        related problems to determine the hardness of the
+                        tropical exchange problem.
                       </li>
                     </ul>
                   </div>
@@ -159,6 +164,7 @@ const Resume = () => (
                         className="company"
                         href="https://www.lasalle.edu/math-computer-science/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         La Salle Mathematics and Computer Science Department
                       </a>
@@ -182,6 +188,7 @@ const Resume = () => (
                         className="company"
                         href="https://www.lasalle.edu/english/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         La Salle English Department
                       </a>
@@ -237,6 +244,7 @@ const Resume = () => (
                       className="page"
                       href="https://devpost.com/software/gratis"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Learn More&nbsp;
                     </a>
@@ -256,20 +264,25 @@ const Resume = () => (
                 <div className="content">
                   <div className="skill-category">
                     <strong>Languages: &nbsp;</strong>
-                    <span>Java, JavaScript (ES6), HTML5, CSS3, Python</span>
+                    <span>
+                      Java, JavaScript (React, Gatsby, and Angular), Python
+                    </span>
                   </div>
                   <div className="skill-category">
                     <strong>Libraries &amp; Frameworks: &nbsp;</strong>
                     <span>Node, React</span>
                   </div>
                   <div className="skill-category">
-                    <strong>Tools: &nbsp;</strong>
+                    <strong>Development Tools: &nbsp;</strong>
                     <span>
-                      Git &amp; Github, Command Line, IntelliJ IDEA CE, Visual
-                      Studio Code, Android Studio, NetBeans, Eclipse, Adobe
-                      Photoshop, Illustrator, inDesign, Jupyter Notebook, IBM
-                      CPLEX
+                      Git &amp; Github, Command Line, Visual Studio Code,
+                      IntelliJ IDEA CE, Android Studio, NetBeans, Adobe
+                      Photoshop, Illustrator, inDesign, PyCharm
                     </span>
+                  </div>
+                  <div className="skill-category">
+                    <strong>Databse and Other Tools: &nbsp;</strong>
+                    <span>MongoDB, mySQL</span>
                   </div>
                 </div>
               </div>
@@ -279,44 +292,48 @@ const Resume = () => (
                   <div className="project-item">
                     <a
                       className="project-title"
-                      href="http://shaniakiat.dev/"
+                      href="http://www.virtualchef.live/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      shaniakiat.dev
+                      Virtual Chef
                     </a>
                     <p className="project-desc">
-                      Develop and design a portfolio site using Gatsby to
-                      showcase my skills and past work
+                      Developed a full-stack application that generates food
+                      predictions based on the user’s preferences. The
+                      predictions are made by using neural networks, word2vec.
                     </p>
+                    <div className="project-built">
+                      MongoDB, Express.js, React, Node.js, Redux, Python, Flask,
+                      and Heroku
+                    </div>
                   </div>
-                  <div className="project-item">
-                    <a
-                      className="project-title"
-                      href="https://devpost.com/software/gratis"
-                      target="_blank"
-                    >
-                      Gratis (Major League Hacking’s Hack WCU Hackathon)
-                    </a>
-                    <p className="project-desc">
-                      Develop a web application using MERN (MongoDB, Express.js,
-                      React, Node.js) stack that aims to provide a platform that
-                      connects businesses (restaurants/cafeterias) that have
-                      surplus food and shelters to provide a solution to the
-                      hunger problem in Philadelphia.
-                    </p>
+
+                  <div className="content">
+                    <div className="project-item">
+                      <a
+                        className="project-title"
+                        href="https://devpost.com/software/gratis"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Gratis (Major League Hacking’s Hack WCU Hackathon)
+                      </a>
+                      <p className="project-desc">
+                        Developed a web application that aims to provide a
+                        platform that connects businesses
+                        (restaurants/cafeterias) that have surplus food and
+                        shelters to provide a solution to the hunger problem in
+                        Philadelphia.
+                      </p>
+                      <div className="project-built">
+                        MongoDB, Express.js, React, Node.js
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="resume-div">
-            <a
-              className="resume"
-              href="https://shaniakiat.dev/resume.pdf"
-              target="_blank"
-            >
-              <div className="resume-link">Grab a PDF of my full resume</div>
-            </a>
-          </div> */}
           </div>
         </div>
       </div>

@@ -8,16 +8,18 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400 !important;
   color: var(--textNormal);
+  list-style: disc;
 }
 
 #resume ul li {
   color: var(--textNormal);
 }
-a {
+#resume a {
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
 
-a:hover {
+#resume a:hover {
   color: var(--textTitle);
   text-decoration: none;
 }
@@ -28,10 +30,6 @@ a:hover {
   width: 100%;
   display: inline-block;
   vertical-align: top;
-}
-
-.center-inner {
-  /* padding: 60px 120px; */
 }
 
 .center-inner-inner {
@@ -76,7 +74,6 @@ a:hover {
   margin: 0 0 20px;
   text-transform: uppercase;
   font-size: 20px;
-  /* background-color: #a53c2e; */
   background-color: var(--textTitle);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -139,9 +136,9 @@ a:hover {
   display: inline-block;
 }
 
-.center .skills .skill-category {
+/* .center .skills .skill-category {
   margin-bottom: 10px;
-}
+} */
 
 .center .skills .skill-category:last-of-type {
   margin-bottom: 0px;
@@ -151,6 +148,10 @@ a:hover {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+}
+
+.center .skills .skill-category > span {
+  font-family: Inconsolata, monospace;
 }
 
 .center .awards .achivement {
@@ -222,10 +223,10 @@ a:hover {
 }
 
 .center .experience .exp-item .duration {
-  font-size: 13px;
+  font-size: 15px;
+  font-family: Inconsolata, monospace;
   font-weight: 500;
   float: center;
-  color: var(--bw);
   text-transform: uppercase;
   position: relative;
   top: 1px;
@@ -262,6 +263,12 @@ a:hover {
 }
 
 .center .projects .project-desc {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+.center .projects .project-built {
+  font-family: Inconsolata, monospace;
   font-size: 15px;
   margin: 0 0 10px;
 }

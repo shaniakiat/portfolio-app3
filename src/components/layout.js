@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()}, Designed by
         {` `}
         <a href="https://www.shaniakiat.dev">
-          Shania Kiat <span>☕️</span>
+          Shania Kiat <span>👩🏻‍💻☕</span>
         </a>
       </footer>
     </>

@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/contact.css"
 
 const Contact = () => (
-  <section class="hero">
+  <section className="hero">
     <div id="contact" className="container">
       <h1>Get In Touch</h1>
       <p>
@@ -16,6 +16,7 @@ const Contact = () => (
         <a
           href="https://www.linkedin.com/in/shania-kiat"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaLinkedin className="linkedin-icon social" /> */}
@@ -25,6 +26,7 @@ const Contact = () => (
         <a
           href="https://github.com/shaniakiat"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaGithub className="github-icon social" /> */}
@@ -34,6 +36,7 @@ const Contact = () => (
         <a
           href="https://dribbble.com/shaniakiat"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaDribbbleSquare className="dribbble-icon social" /> */}
@@ -43,6 +46,7 @@ const Contact = () => (
         <a
           href="https://www.behance.net/shaniakiat"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaBehanceSquare className="behance-icon social" /> */}
@@ -52,6 +56,7 @@ const Contact = () => (
         <a
           href="https://codepen.io/shaniakiat/"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaCodepen className="codepen-icon social" /> */}
@@ -61,6 +66,7 @@ const Contact = () => (
         <a
           href="https://www.instagram.com/shania.took.this/"
           target="_blank"
+          rel="noopener noreferrer"
           className="link-p networks"
         >
           {/* <FaInstagram className="insta-icon social" /> */}

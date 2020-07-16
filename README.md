@@ -18,8 +18,6 @@
   </a>
 </p>
 
-<!-- ![demo]() -->
-
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI

@@ -1,10 +1,9 @@
 @import url("layout.css");
 
-.go-home {
-  fill: var(--textNormal);
+.logo-svg svg {
   width: 34px;
   height: 34px;
-  transition: 0.5s;
+  color: var(--textLink);
 }
 
 .project-h1 {

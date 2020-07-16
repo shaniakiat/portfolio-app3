@@ -79,9 +79,9 @@ export default class Header extends Component {
                         checked={theme === "dark"}
                       />
                       {theme === "dark" ? (
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                       ) : (
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                       )}
                     </label>
                   )}
