@@ -23,8 +23,8 @@ const About = () => (
           >
             Vanguard
           </a>{" "}
-          as a Application Development Intern. Previously, I had internship as a
-          Predictive Analytics Intern at Tegra Analytics and Summer
+          as a Application Development Intern. Previously, I had an internship
+          as a Predictive Analytics Intern at Tegra Analytics and a Summer
           Undergraduate Research at La Salle.
           <br />
           <br />
