@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Shania Kiat`,
-    description: `Shania Kiat is an undergraduate student in La Salle University, PA majoring in computer science and minoring in mathematics.`,
+    description: `Shania Kiat is an undergraduate student at La Salle University, PA majoring in computer science and minoring in mathematics.`,
     author: `@shaniakiat`,
     url: "https://www.shaniakiat.dev", // No trailing slash allowed!
     image: "static/images/v3.png", // Path to your image you placed in the 'static' folder
