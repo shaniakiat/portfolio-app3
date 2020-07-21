@@ -13,7 +13,7 @@
   <a href="https://shaniakiat.netlify.app" target="_blank">v2</a>
 </p>
 <p align="center">
-  <a href="https://app.netlify.com/sites/shaniakiat/deploys" target="_blank">
+  <a href="https://app.netlify.com/sites/vibrant-yonath-b03033/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/3eb17b8c-3df3-4ee4-8d0e-21b0e3fb6f45/deploy-status" alt="Netlify Status" />
   </a>
 </p>
