@@ -18,7 +18,7 @@ const About = () => (
           <br />
           My previous experiences include:
           <li>Application Development Intern at Vanguard</li>
-          <li>Data Science Intern at Tegra Analyrics</li>
+          <li>Data Science Intern at Tegra Analytics</li>
           <li>Undergraduate Student Researcher at La Salle University </li>
           <br />
           My career goals include becoming a software engineer and working for a
