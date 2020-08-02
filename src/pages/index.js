@@ -3,23 +3,21 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Header from "../components/globals/header"
 import Home from "../components/globals/home"
 import About from "../components/globals/about"
+import Project from "../components/globals/project"
 import Contact from "../components/globals/contact"
 
 import "../components/styles/layout.css"
 
 const IndexPage = () => (
-  <div className="container">
-    <Layout>
-      <SEO title="Computer Science Student" />
-      <Header />
-      <Home />
-      <About />
-      <Contact />
-    </Layout>
-  </div>
+  <Layout>
+    <SEO title="Computer Science Student" />
+    <Home />
+    <About />
+    <Project />
+    <Contact />
+  </Layout>
 )
 
 export default IndexPage

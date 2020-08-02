@@ -73,26 +73,6 @@ section {
   padding: 0 1.5rem;
 }
 
-footer {
-  text-align: center;
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  color: var(--textLink) !important;
-  margin-bottom: 10px;
-}
-
-footer a {
-  font-family: "Inconsolata", monospace;
-  font-weight: 200;
-}
-
-/* @media screen and (max-width: 1024px) {
-  p,
-  a.link-p {
-    font-size: 2.2rem;
-  }
-} */
-
 @media screen and (max-width: 768px) {
   p,
   a.link-p {

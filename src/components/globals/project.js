@@ -6,13 +6,9 @@ import Portfolio from "../../../static/images/v2.png"
 
 import Fade from "react-reveal/Fade"
 
-import Header from "./header"
-
 const Project = () => (
   <>
-    <Header />
-
-    <section className="hero">
+    <section id="project" className="hero">
       <Fade bottom>
         <div className="container">
           <h1 className="project-h1">Featured Projects</h1>
@@ -98,11 +94,3 @@ const Project = () => (
 )
 
 export default Project
-
-// < ul className = "nav-list active" >
-//   <li className="nav-item">
-//     <a href="/" className="nav-link current">
-//       HOME
-//             </a>
-//   </li>
-//   <li className="nav-item">

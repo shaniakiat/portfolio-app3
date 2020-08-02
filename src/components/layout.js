@@ -1,15 +1,11 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 
 import "./styles/layout.css"
 import "./styles/switch.css"
+
+import Header from "./globals/header"
+import Footer from "./globals/footer"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -19,14 +15,9 @@ if (typeof window !== "undefined") {
 const Layout = ({ children }) => {
   return (
     <>
+      <Header />
       {children}
-      <footer>
-        © {new Date().getFullYear()}, Designed by
-        {` `}
-        <a href="https://www.shaniakiat.dev">
-          Shania Kiat <span>👩🏻‍💻☕</span>
-        </a>
-      </footer>
+      <Footer />
     </>
   )
 }

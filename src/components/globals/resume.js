@@ -2,11 +2,8 @@ import React from "react"
 import "../styles/resume.css"
 import Fade from "react-reveal/Fade"
 
-import Header from "./header"
-
 const Resume = () => (
   <>
-    <Header />
     <section className="hero">
       <Fade bottom>
         <div id="resume" className="container">
