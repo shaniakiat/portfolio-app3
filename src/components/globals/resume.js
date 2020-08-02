@@ -77,6 +77,46 @@ const Resume = () => (
                       <div className="job">
                         <a
                           className="company"
+                          href="https://investor.vanguard.com/home"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Vanguard
+                        </a>
+                        <div className="duration">
+                          May 2020 &mdash; July 2020
+                        </div>
+                      </div>
+                      <div className="title">
+                        Application Development Intern
+                      </div>
+                      <ul className="description">
+                        <li>
+                          Developed a web application for the financial advisors
+                          to test the client-tailored portfolio rebalance engine
+                          using Angular 8, Vanguard UI Library, and Vanguard
+                          API.
+                        </li>
+                        <li>
+                          Worked closely with the product owner and the
+                          methodology team to refine business requirements and
+                          maintain overall project status.
+                        </li>
+                        <li>
+                          Ensured quality assurance by creating unit and
+                          end-to-end tests utilizing Jasmine.
+                        </li>
+                        <li>
+                          Collaborated with a team of interns to develop a
+                          full-stack application of Vanguard internal e-commerce
+                          using MongoDB, Express.js, Angular 8, Node.js.
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="exp-item">
+                      <div className="job">
+                        <a
+                          className="company"
                           href="https://www.tegraanalytics.com/"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -87,7 +127,7 @@ const Resume = () => (
                           May 2019 &mdash; Aug 2019
                         </div>
                       </div>
-                      <div className="title">Predictive Analytics Intern</div>
+                      <div className="title">Data Science Intern</div>
                       <ul className="description">
                         <li>
                           Performed exploratory data analysis for 10,000+

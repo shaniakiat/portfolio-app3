@@ -16,17 +16,10 @@ const About = () => (
           in Philadelphia, studying computer science and mathematics.
           <br />
           <br />
-          I'm currently doing my internship at{" "}
-          <a
-            href="https://investor.vanguard.com/corporate-portal/"
-            className="link-p"
-          >
-            Vanguard
-          </a>{" "}
-          as a Application Development Intern. Previously, I had an internship
-          as a Predictive Analytics Intern at Tegra Analytics and a Summer
-          Undergraduate Research at La Salle.
-          <br />
+          My previous experiences include:
+          <li>Application Development Intern at Vanguard</li>
+          <li>Data Science Intern at Tegra Analyrics</li>
+          <li>Undergraduate Student Researcher at La Salle University </li>
           <br />
           My career goals include becoming a software engineer and working for a
           product or tool I believe in while giving a positive impact on the
