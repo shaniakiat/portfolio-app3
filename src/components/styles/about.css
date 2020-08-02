@@ -1,9 +1,5 @@
 @import url("layout.css");
 
-#about {
-  padding: 200px 0;
-}
-
 #about h1 {
   margin-bottom: 1.5rem;
 }
