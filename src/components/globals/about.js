@@ -16,20 +16,15 @@ const About = () => (
           in Philadelphia, studying computer science and mathematics.
           <br />
           <br />
-          My previous experiences include:
-          <li>Application Development Intern at Vanguard</li>
-          <li>Data Science Intern at Tegra Analytics</li>
-          <li>Undergraduate Student Researcher at La Salle University </li>
-          <br />
           My career goals include becoming a software engineer and working for a
           product or tool I believe in while giving a positive impact on the
           world through my work and interactions with others.
           <br />
           <br />
-          On campus, I am the secretary and public relations for La Salle’s
-          Mathematical Assoc. of America. I am also involved in La Salle’s
-          Association for Computing Machinery and Programming Team. In Spring
-          2019, I attended my first hackathon,{" "}
+          On campus,I am the Vice President of La Salle La Salle’s Association
+          for Computing Machinery. I am also involved in La Salle’s Mathematical
+          Assoc. of America and Programming Team. In Spring 2019, I attended my
+          first hackathon,{" "}
           <a href="https://hackwcu.org/" className="link-p">
             HackWCU
           </a>
