@@ -21,14 +21,14 @@ const About = () => (
           world through my work and interactions with others.
           <br />
           <br />
-          On campus,I am the Vice President of La Salle La Salle’s Association
+          On campus, I am the Vice President of La Salle’s Association
           for Computing Machinery. I am also involved in La Salle’s Mathematical
           Assoc. of America and Programming Team. In Spring 2019, I attended my
           first hackathon,{" "}
           <a href="https://hackwcu.org/" className="link-p">
             HackWCU
           </a>
-          , where my team won first place🏆.
+          , where our team won first place🏆.
           <br />
           <br />
           My past involvement outside La Salle includes my role as the Creative
