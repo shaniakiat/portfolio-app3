@@ -2,128 +2,64 @@
 
 .hero {
   width: 100%;
-  min-height: 90vh;
   position: relative;
 }
 
-.main-message {
-  width: 100%;
-  max-width: 50rem;
-  padding: 15vh 5vh;
-  margin: 10vh 0;
-  border: 4px solid var(--textNormal);
-  /* border-radius: 10px; */
-  transition: box-shadow 0.3s;
+.content {
+  padding: 5em 0;
 }
 
-.main-message p {
-  font-size: 1.8rem;
+.full-name {
+  font-size: 55px;
+}
+
+.my-title {
+  font-size: 35px;
   color: var(--textNormal);
-  transition: 0.5s;
+  max-width: 400px;
 }
 
-.main-message:hover {
-  box-shadow: 0 0 20px var(--textNormal);
+.my-desc {
+  font-size: 16px;
+  max-width: 400px;
 }
 
-.resume-home {
-  font-family: "Inconsolata", monospace;
-  font-weight: 200;
-  color: var(--textNormal) !important;
-  font-size: 1.5rem;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+  color: var(--textNormal);
 }
 
-a.resume-home:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
-  width: 100%;
-  border-bottom: 3px solid var(--textNormal);
-  margin-top: 10px;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0, 1);
-  transform: scale(0, 1);
+.hero-design {
+  display: none;
 }
 
-a.resume-home:hover:after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-/* .icons {
-  fill: var(--textNormal);
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  fill: var(--textNormal);
-  width: 10vh;
-  height: 10vh;
-  margin: 4vh;
-  padding: 2vh;
-  background-color: var(--textNormal);
-  border: solid 2px var(--textNormal);
-  transition: 0.5s;
-  border-radius: 10px;
-  fill: var(--bg);
-  background-color: var(--textNormal);
-}
-
-.icon:hover {
-  box-shadow: 0 0 15px var(--textNormal);
-} */
-
-@media screen and (min-width: 1024px) {
-  .main-message p {
-    font-size: 1.8rem;
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+    grid-template-columns: 50% auto;
+    background: unset;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .main-message {
-    padding: 20% 5vh;
-    margin: 10% 0;
+  .hero .content {
+    text-align: left;
   }
-  .main-message p {
-    font-size: 1.5rem;
+  .hero .content full-name {
+    font-size: 3.5em;
+    line-height: 1.2em;
   }
-  .resume-home {
-    font-size: 1.4rem;
+  .my-title,
+  .my-desc {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    margin: unset;
   }
-}
-
-@media screen and (max-width: 550px) {
-  .main-message p {
-    font-size: 1.3rem;
-  }
-  .resume-home {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .main-message p {
-    font-size: 1.17rem;
-  }
-  .resume-home {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 330px) {
-  .main-message p {
-    font-size: 1rem;
-  }
-  .resume-home {
-    font-size: 0.8rem;
+  .hero-design {
+    display: unset;
+    margin-top: 35vh;
+    width: 100%;
+    transition: 0.5s;
   }
 }
