@@ -8,84 +8,82 @@ import Fade from "react-reveal/Fade"
 
 const Project = () => (
   <>
-    <section id="project" className="hero">
+    <section className="project">
       <Fade bottom>
-        <div className="container">
-          <h1 className="project-h1">Featured Projects</h1>
-          <div className="grid">
-            <div className="left-content">
-              <a
-                href="https://www.virtualchef.live"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={VirtualChef} className="project-img" alt=""></img>
-              </a>
-            </div>
-            <div className="right-content">
-              <a
-                href="https://www.virtualchef.live"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3>Virtual Chef</h3>
-              </a>
+        <h1 className="title">Featured Projects</h1>
+        <div className="grid">
+          <div className="left-content">
+            <a
+              href="https://www.virtualchef.live"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={VirtualChef} className="project-img" alt=""></img>
+            </a>
+          </div>
+          <div className="right-content">
+            <a
+              href="https://www.virtualchef.live"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>Virtual Chef</h3>
+            </a>
 
-              <p className="project-p">
-                Full-stack web application that suggests new foods using neural
-                networks.
-              </p>
-            </div>
+            <p className="project-p">
+              Full-stack web application that suggests new foods using neural
+              networks.
+            </p>
           </div>
-          <div className="grid">
-            <div className="left-content">
-              <a
-                href="https://shaniakiat.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Portfolio} className="project-img" alt=""></img>
-              </a>
-            </div>
-            <div className="right-content">
-              <a
-                href="https://shaniakiat.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3>Personal Website V2 </h3>
-              </a>
-              <p className="project-p">
-                Second iteration of my personal website built with Gatsby and
-                hosted on Netlify.
-              </p>
-            </div>
+        </div>
+        <div className="grid">
+          <div className="left-content">
+            <a
+              href="https://shaniakiat.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Portfolio} className="project-img" alt=""></img>
+            </a>
           </div>
-          <div className="grid">
-            <div className="left-content">
-              <a
-                href="https://devpost.com/software/gratis"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Gratis} className="project-img" alt=""></img>
-              </a>
-            </div>
-            <div className="right-content">
-              <a
-                href="https://devpost.com/software/gratis"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h3>Gratis </h3>
-              </a>
-              <p className="project-p">
-                Gratis helps connect local Philadelphia restaurants with surplus
-                food to shelters in the area to provide food for those in need.
-                <br />
-                🏆 HackWCU 🏆
-              </p>
-            </div>
+          <div className="right-content">
+            <a
+              href="https://shaniakiat.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>Personal Website V2 </h3>
+            </a>
+            <p className="project-p">
+              Second iteration of my personal website built with Gatsby and
+              hosted on Netlify.
+            </p>
+          </div>
+        </div>
+        <div className="grid">
+          <div className="left-content">
+            <a
+              href="https://devpost.com/software/gratis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Gratis} className="project-img" alt=""></img>
+            </a>
+          </div>
+          <div className="right-content">
+            <a
+              href="https://devpost.com/software/gratis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>Gratis </h3>
+            </a>
+            <p className="project-p">
+              Gratis helps connect local Philadelphia restaurants with surplus
+              food to shelters in the area to provide food for those in need.
+              <br />
+              🏆 HackWCU 🏆
+            </p>
           </div>
         </div>
       </Fade>

@@ -21,10 +21,10 @@ export default class Header extends Component {
   render() {
     return (
       <header>
-        <div className="container">
+        <div className="header">
           <nav>
             <div className="logo">
-              <a href="/">SK</a>
+              <a href="/">Shania Kiat</a>
             </div>
 
             <div className="open" onClick={this.navbarHandler}>

@@ -1,11 +1,11 @@
 @import url("layout.css");
 
 #resume {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #resume ul {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400 !important;
   color: var(--textNormal);
   list-style: disc;
@@ -15,7 +15,7 @@
   color: var(--textNormal);
 }
 #resume a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
@@ -25,8 +25,6 @@
 }
 
 .center {
-  /* background-color: rgb(255, 255, 255); */
-  /* background-color: var(--bg); */
   width: 100%;
   display: inline-block;
   vertical-align: top;
@@ -58,7 +56,6 @@
 }
 
 .center a {
-  /* color: #000; */
   color: var(--mainLink);
 }
 
@@ -134,10 +131,6 @@
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-
-/* .center .skills .skill-category {
-  margin-bottom: 10px;
-} */
 
 .center .skills .skill-category:last-of-type {
   margin-bottom: 0px;

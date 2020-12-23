@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 
 import Home from "../components/globals/home"
 import About from "../components/globals/about"
+import Experience from "../components/globals/experience"
 import Project from "../components/globals/project"
 import Contact from "../components/globals/contact"
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <SEO title="Shania A. Kiat" />
     <Home />
     <About />
+    <Experience />
     <Project />
     <Contact />
   </Layout>
