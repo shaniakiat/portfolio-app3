@@ -15,7 +15,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Shania A. Kiat" />
     <Home />
-    <About />
     <Experience />
     <Project />
     <Contact />

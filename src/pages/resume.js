@@ -5,10 +5,8 @@ import Resume from "../components/globals/resume"
 
 const second = () => (
   <Layout>
-    <div className="container">
-      <SEO title="Resume" />
-      <Resume />
-    </div>
+    <SEO title="Resume" />
+    <Resume />
   </Layout>
 )
 

@@ -1,17 +1,17 @@
 import React, { useEffect, useRef } from "react"
 import "../styles/home.css"
-import { StaggerLandingPage } from "./Animate"
-import { ArrowYoyo } from "./Animate"
+import { StaggerLandingPage, ArrowYoyo } from "./Animate"
 
 function Home() {
   let stagger1 = useRef(null)
   let stagger2 = useRef(null)
   let stagger3 = useRef(null)
   let stagger4 = useRef(null)
+  let stagger5 = useRef(null)
   let yoyo = useRef(null)
 
   useEffect(() => {
-    StaggerLandingPage(stagger1, stagger2, stagger3, stagger4)
+    StaggerLandingPage(stagger1, stagger2, stagger3, stagger4, stagger5)
     ArrowYoyo(yoyo)
   }, [])
   return (
@@ -21,7 +21,7 @@ function Home() {
           Shania Kiat
         </h1>
         <h2 className="my-title" ref={el => (stagger2 = el)}>
-          Web Developer & UI/UX Enthusiast
+          Front-End Developer & UI/UX Enthusiast
         </h2>
         <p className="my-desc" ref={el => (stagger3 = el)}>
           I'm a student at La Salle University majoring in computer science &
@@ -29,7 +29,7 @@ function Home() {
         </p>
         <span ref={el => (stagger4 = el)}>
           <svg
-            class="scroll"
+            className="scroll"
             aria-hidden="true"
             focusable="false"
             data-prefix="fas"
@@ -39,7 +39,7 @@ function Home() {
             ref={el => (yoyo = el)}
           >
             <path
-              class="arrow"
+              className="arrow"
               fill="currentColor"
               d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"
             ></path>
@@ -48,10 +48,9 @@ function Home() {
       </div>
       <svg
         className="hero-design"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 784.09 558.59"
+        ref={el => (stagger5 = el)}
       >
-        <title>Asset 2</title>
         <g id="Layer_2" data-name="Layer 2">
           <g id="Layer_1-2" data-name="Layer 1">
             <g id="Group_1" data-name="Group 1">

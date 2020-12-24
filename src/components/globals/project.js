@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade"
 
 const Project = () => (
   <>
-    <section className="project">
+    <section className="project" id="project">
       <Fade bottom>
         <h1 className="title">Featured Projects</h1>
         <div className="grid">

@@ -4,9 +4,9 @@ import Fade from "react-reveal/Fade"
 
 const Resume = () => (
   <>
-    <section className="hero">
+    <section>
       <Fade bottom>
-        <div id="resume" className="container">
+        <div id="resume">
           <div className="center">
             <div className="center-inner">
               <div className="center-inner-inner">

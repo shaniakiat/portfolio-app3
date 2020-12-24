@@ -50,7 +50,6 @@ button,
 a,
 ul {
   font-family: "Inconsolata", sans-serif;
-  font-weight: 700;
   list-style: none;
   text-decoration: none;
   color: var(--textLink) !important;

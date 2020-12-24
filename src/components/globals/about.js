@@ -3,7 +3,7 @@ import "../styles/about.css"
 import Fade from "react-reveal/Fade"
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <Fade left>
       <h1 className="title">About Me</h1>
       <p>
