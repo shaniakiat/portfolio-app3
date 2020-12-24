@@ -26,6 +26,7 @@ const Experience = ({ children }) => (
       <>
         <section className="experience" id="experience">
           <Fade top>
+            <h1 className="title">Where I've Worked</h1>
             <Tabs>
               <TabList>
                 <Tab>Vanguard</Tab>
