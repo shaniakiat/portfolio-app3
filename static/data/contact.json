@@ -3,12 +3,20 @@
     "website": "LinkedIn",
     "link": "https://www.linkedin.com/in/shania-kiat"
   },
-    {
+  {
     "website": "GitHub",
     "link": "https://github.com/shaniakiat"
   },
-    {
+  {
     "website": "Dribbble",
     "link": "https://dribbble.com/shaniakiat"
+  },
+  {
+    "website": "Resume (Online)",
+    "link": "/resume"
+  },
+  {
+    "website": "Resume PDF",
+    "link": "https://www.shaniakiat.dev/resume.pdf"
   }
 ]

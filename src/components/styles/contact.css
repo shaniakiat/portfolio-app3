@@ -23,7 +23,7 @@
   position: relative;
 }
 
-.contact a:after {
+a.networks:after {
   content: "";
   position: absolute;
   left: 0;
@@ -39,7 +39,7 @@
   transform: scale(0, 1);
 }
 
-a:hover:after {
+a.networks:hover:after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
