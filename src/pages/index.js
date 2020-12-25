@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Home from "../components/globals/home"
-import About from "../components/globals/about"
 import Experience from "../components/globals/experience"
 import Project from "../components/globals/project"
 import Contact from "../components/globals/contact"

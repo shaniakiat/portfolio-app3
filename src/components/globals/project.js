@@ -1,8 +1,5 @@
 import React from "react"
 import "../styles/project.css"
-import VirtualChef from "../../../static/images/virtualchef2.png"
-import Gratis from "../../../static/images/gratis2.png"
-import Portfolio from "../../../static/images/v2.png"
 import Fade from "react-reveal/Fade"
 import { StaticQuery, graphql } from "gatsby"
 
@@ -32,7 +29,6 @@ const Project = ({ children }) => (
           <section className="project" id="project">
             <h1 className="title">Featured Projects</h1>
             {getProject(data)}
-            {console.log(data)}
           </section>
         </Fade>
       </>

@@ -27,9 +27,9 @@ body.dark {
   -webkit-font-smoothing: antialiased;
   --bg: #1a1b1e;
   --bw: white;
-  --textNormal: #9aa3f5bf;
+  --textNormal: #838bd6;
   --textTitle: #b5b3fa;
-  --textLink: #7775f5;
+  --textLink: #94afff;
   --hr: hsla(0, 0%, 100%, 0.2);
   transition: 0.5s;
 }

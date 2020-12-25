@@ -54,10 +54,6 @@
   .hero .content {
     text-align: left;
   }
-  .hero .content full-name {
-    font-size: 3.5em;
-    line-height: 1.2em;
-  }
   .my-title,
   .my-desc {
     -webkit-box-pack: left;

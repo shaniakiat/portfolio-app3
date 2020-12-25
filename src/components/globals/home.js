@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react"
 import "../styles/home.css"
-import { StaggerLandingPage, ArrowYoyo } from "./Animate"
+import { StaggerLandingPage, ArrowYoyo } from "./animate"
 
 function Home() {
   let stagger1 = useRef(null)

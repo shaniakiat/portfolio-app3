@@ -1,5 +1,4 @@
 import gsap from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
 export const StaggerLandingPage = (elem1, elem2, elem3, elem4, elem5) => {
   gsap.from(
     [elem1, elem2, elem3, elem4, elem5],

@@ -1,29 +1,32 @@
-.contact {
-  text-align: right;
+@import url("layout.css");
+
+.not-found {
+  width: 100%;
+  position: relative;
+  height: 90vh;
+  background: unset;
 }
 
-.contact h1 {
-  margin-bottom: 1.5rem;
-  text-align: right;
+.not-found .content {
+  text-align: left;
+  padding: 5em 0;
 }
 
-.contact p {
-  font-size: 16px;
+.not-found-title {
+  font-size: 55px;
 }
 
-.contact a {
-  font-family: "Inconsolata", monospace;
-  font-weight: 200;
-  font-size: 16px;
+.not-found-desc {
+  font-size: 14px;
 }
 
-.networks {
+.go-home {
   padding: 10px 0;
   display: inline-block;
   position: relative;
 }
 
-.contact a:after {
+a.go-home:after {
   content: "";
   position: absolute;
   left: 0;
@@ -39,8 +42,14 @@
   transform: scale(0, 1);
 }
 
-a:hover:after {
+a.go-home:hover:after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.not-found-design {
+  display: unset;
+  width: 100%;
+  transition: 0.5s;
 }
