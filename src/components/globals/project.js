@@ -44,7 +44,7 @@ function getProject(data) {
   const projectArray = []
   data.allProjectsJson.edges.forEach((item, index) =>
     projectArray.push(
-      <div className="grid">
+      <div className="grid" key={item.node.title + index}>
         <div className="left-content">
           <a href={item.node.link} target="_blank" rel="noopener noreferrer">
             <img src={item.node.image.src} className="project-img" alt=""></img>

@@ -24,7 +24,7 @@ const Experience = ({ children }) => (
     `}
     render={data => (
       <>
-        <Fade top>
+        <Fade left>
           <section className="experience" id="experience">
             <h1 className="title">Where I've Worked</h1>
             <Tabs>

@@ -87,7 +87,7 @@ const Resume = () => (
                           May 2020 &mdash; July 2020
                         </div>
                       </div>
-                      <div className="title">
+                      <div className="position-title">
                         Application Development Intern
                       </div>
                       <ul className="description">
@@ -127,7 +127,7 @@ const Resume = () => (
                           May 2019 &mdash; Aug 2019
                         </div>
                       </div>
-                      <div className="title">Data Science Intern</div>
+                      <div className="position-title">Data Science Intern</div>
                       <ul className="description">
                         <li>
                           Performed exploratory data analysis for 10,000+
@@ -155,7 +155,7 @@ const Resume = () => (
                           May 2019 &mdash; Aug 2019
                         </div>
                       </div>
-                      <div className="title">
+                      <div className="position-title">
                         Undergraduate Student Researcher
                       </div>
                       <ul className="description">
@@ -186,7 +186,7 @@ const Resume = () => (
                           Aug 2018 &mdash; Jun 2019
                         </div>
                       </div>
-                      <div className="title">Mathematics Tutor</div>
+                      <div className="position-title">Mathematics Tutor</div>
                       <ul className="description">
                         <li>
                           Tutored La Salle’s undergraduate students in college
@@ -210,7 +210,7 @@ const Resume = () => (
                         </a>
                         <div className="duration">Aug 2017 &mdash; PRESENT</div>
                       </div>
-                      <div className="title">Student Worker</div>
+                      <div className="position-title">Student Worker</div>
                       <ul className="description">
                         <li>
                           Assist professors of English Department with various

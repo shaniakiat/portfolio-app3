@@ -1,19 +1,20 @@
-#contact {
-  align-items: right;
+.contact {
+  text-align: right;
 }
 
-#contact h1 {
+.contact h1 {
   margin-bottom: 1.5rem;
   text-align: right;
 }
 
-#contact p {
-  text-align: right;
+.contact p {
+  font-size: 16px;
 }
 
-#contact p a {
+.contact a {
   font-family: "Inconsolata", monospace;
   font-weight: 200;
+  font-size: 16px;
 }
 
 .networks {
