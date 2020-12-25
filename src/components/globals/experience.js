@@ -24,8 +24,8 @@ const Experience = ({ children }) => (
     `}
     render={data => (
       <>
-        <section className="experience" id="experience">
-          <Fade top>
+        <Fade top>
+          <section className="experience" id="experience">
             <h1 className="title">Where I've Worked</h1>
             <Tabs>
               <TabList>
@@ -36,8 +36,8 @@ const Experience = ({ children }) => (
               </TabList>
               {getExperience(data)}
             </Tabs>
-          </Fade>
-        </section>
+          </section>
+        </Fade>
       </>
     )}
   />
