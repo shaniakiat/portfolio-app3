@@ -25,12 +25,12 @@ const Project = ({ children }) => (
     `}
     render={data => (
       <>
-        <Fade bottom>
-          <section className="project" id="project">
+        <section className="project" id="project">
+          <Fade bottom>
             <h1 className="title">Featured Projects</h1>
             {getProject(data)}
-          </section>
-        </Fade>
+          </Fade>
+        </section>
       </>
     )}
   />

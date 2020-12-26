@@ -3,10 +3,12 @@
 .hero {
   width: 100%;
   position: relative;
+  min-height: 500px;
 }
 
 .content {
   padding: 5em 0;
+  padding-bottom: 3em;
 }
 
 .full-name {
@@ -31,10 +33,17 @@
 }
 
 .hero-design {
-  display: none;
+  display: unset;
+  width: 100%;
+  transition: 0.5s;
+  max-width: 400px;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 800px) {
+  .content {
+    padding: 0;
+    padding: 5em 0;
+  }
   .my-title {
     font-size: 35px;
     color: var(--textNormal);
