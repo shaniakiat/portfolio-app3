@@ -25,24 +25,17 @@ const Resume = () => (
                         La Salle University
                       </a>
                     </div>
-                    <div className="college">
-                      <a
-                        href="https://www.lasalle.edu/computer-science/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        School of Arts and Sciences / Computer Science
-                      </a>
-                    </div>
                     <div className="major">
-                      <strong>Major:</strong> Computer Science <br />
-                      <strong>Minor:</strong> Mathematics{" "}
+                      Computer Science | <strong>Minor:</strong> Mathematics
                     </div>
                     <div className="degree">
-                      <strong>Degree:</strong> Bachelor of Science
+                      Bachelor of Science
+                    </div>
+                    <div className="honor">
+                      maxima cum laude
                     </div>
                     <div className="grad-date">
-                      Expected Graduation: May 2021
+                      May 2021
                     </div>
                   </div>
                 </div>
@@ -59,6 +52,9 @@ const Resume = () => (
                       <li>Computer Electronics</li>
                       <li>Data Communication Networks</li>
                       <li>Computer Architecture</li>
+                      <li>Operating Systems</li>
+                      <li>Client-Side Scripting</li>
+                      <li>Open-Source App Development</li>
                       <li>Database Management Systems</li>
                       <li>Multivariable Calculus</li>
                       <li>Linear Algebra and Applications</li>
@@ -228,6 +224,12 @@ const Resume = () => (
                 <div className="awards">
                   <h4>Awards</h4>
                   <div className="content">
+                     <div className="achivement">
+                      <span>
+                        Upsilon Pi Epsilon Academic Achievement Award &nbsp;
+                      </span>
+                      <strong>(Spring 2020)</strong>
+                    </div>
                     <div className="achivement">
                       <span>
                         Placed 2nd in the ACM-ICPC Mid-Atlantic Regional 2019
@@ -242,13 +244,7 @@ const Resume = () => (
                       </span>
                       <strong>(Fall 2019)</strong>
                     </div>
-                    <div className="achivement">
-                      <span>
-                        Member of Upsilon Pi Epsilon Computer Science Honors
-                        Society &nbsp;
-                      </span>
-                      <strong>(Spring 2019)</strong>
-                    </div>
+                   
                     <div className="achivement">
                       <span>
                         🏆 1st Place Winner of Major League Hacking's Hack WCU

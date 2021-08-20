@@ -169,28 +169,22 @@
   font-size: 16px;
 }
 
-.center .education .college {
-  font-weight: 700;
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
 .center .education .major,
 .center .education .degree,
-.center .education .conc,
+.center .education .honor,
 .center .education .study-abroad {
   font-size: 15px;
 }
 
 .center .education .major > strong,
 .center .education .degree > strong,
-.center .education .conc > strong,
+.center .education .honor > strong,
 .center .education .study-abroad > strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.center .education .study-abroad {
-  margin-top: 10px;
+.center .education .honor {
+  font-style: italic;
 }
 
 .center .education .grad-date {

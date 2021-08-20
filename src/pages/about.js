@@ -11,22 +11,23 @@ const About = () => (
       <Fade left>
         <h1 className="title">About Me</h1>
         <p>
-          I'm a senior at{" "}
+        I'm currently in a Technology Leadership Program as an Application Engineer at{" "}
+          <a href="https://vanguard.com" className="link-p">
+            Vanguard.
+          </a>{" "}
+          I recently graduated from{" "}
           <a href="https://lasalle.edu" className="link-p">
             La Salle University
-          </a>{" "}
-          in Philadelphia, studying computer science and mathematics.
+          </a>{" "} after completing two internships and one undergraduate research.
           <br />
           <br />
-          My career goals include becoming a software engineer and working for a
-          product or tool I believe in while giving a positive impact on the
-          world through my work and interactions with others.
+          My career goal is to work for a product or tool I believe in 
+          while positively impacting the world through my work and interactions with others.
           <br />
           <br />
-          On campus, I am the Vice President of La Salle’s Association for
-          Computing Machinery. I am also involved in La Salle’s Mathematical
-          Assoc. of America and Programming Team. In Spring 2019, I attended my
-          first hackathon,{" "}
+          During my time at La Salle, I was the Vice President of La Salle ACM. 
+          I was also involved in La Salle Math Club and Programming Team. 
+          In Spring 2019, I attended my first hackathon,{" "}
           <a href="https://hackwcu.org/" className="link-p">
             HackWCU
           </a>
@@ -45,8 +46,7 @@ const About = () => (
           Students' Association in America.
           <br />
           <br />
-          Aside from computer science, technology, and mathematics, I enjoy
-          design, photography, and baking.
+          Aside from technology, I enjoy design, photography, and baking.
         </p>
       </Fade>
     </section>
