@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Shania Kiat`,
-    description: `Shania Kiat is an undergraduate student at La Salle University, PA majoring in computer science and minoring in mathematics.`,
+    description: `I am an Application Engineer at Vanguard. I recently graduated with my computer science degree from La Salle University. I’m passionate about delivering high performance and intuitive design of web application to the users.`,
     author: `@shaniakiat`,
     url: "https://www.shaniakiat.dev", // No trailing slash allowed!
     image: "static/images/v3.png", // Path to your image you placed in the 'static' folder
@@ -40,8 +40,5 @@ module.exports = {
       },
     },
     "gatsby-plugin-dark-mode",
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

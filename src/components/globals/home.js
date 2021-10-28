@@ -7,10 +7,11 @@ function Home() {
   let stagger2 = useRef(null)
   let stagger3 = useRef(null)
   let stagger4 = useRef(null)
+  let stagger5 = useRef(null)
   let yoyo = useRef(null)
 
   useEffect(() => {
-    StaggerLandingPage(stagger1, stagger2, stagger3, stagger4)
+    StaggerLandingPage(stagger1, stagger2, stagger3, stagger4, stagger5)
     ArrowYoyo(yoyo)
   }, [])
   return (
@@ -20,9 +21,12 @@ function Home() {
           Shania Kiat
         </h1>
         <h2 className="my-title" ref={el => (stagger2 = el)}>
-          Front-End Developer & UI/UX Enthusiast
+          Application Engineer
         </h2>
-        <span ref={el => (stagger3 = el)}>
+        <p className="my-desc" ref={el => (stagger3 = el)}>
+        2021 Technology Leadership Program (TLP) Participant at Vanguard.
+        </p>
+        <span ref={el => (stagger4 = el)}>
           <svg
             className="scroll"
             aria-hidden="true"
@@ -44,7 +48,7 @@ function Home() {
       <svg
         className="hero-design"
         viewBox="0 0 784.09 558.59"
-        ref={el => (stagger4 = el)}
+        ref={el => (stagger5 = el)}
       >
         <g id="Layer_2" data-name="Layer 2">
           <g id="Layer_1-2" data-name="Layer 1">

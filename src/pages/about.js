@@ -11,23 +11,26 @@ const About = () => (
       <Fade left>
         <h1 className="title">About Me</h1>
         <p>
-        I'm currently in a Technology Leadership Program as an Application Engineer at{" "}
+          I'm currently in the 2021 Technology Leadership Program as an
+          Application Engineer at{" "}
           <a href="https://vanguard.com" className="link-p">
             Vanguard.
           </a>{" "}
-          I recently graduated from{" "}
+          I recently graduated with my computer science degree from{" "}
           <a href="https://lasalle.edu" className="link-p">
             La Salle University
-          </a>{" "} after completing two internships and one undergraduate research.
+          </a>{" "}
+          after completing two internships and one undergraduate research.
           <br />
           <br />
-          My career goal is to work for a product or tool I believe in 
-          while positively impacting the world through my work and interactions with others.
+          I’m passionate about delivering high-performance and intuitive design
+          of web applications to the users while positively impacting the world
+          through my work and interactions with others.
           <br />
           <br />
-          During my time at La Salle, I was the Vice President of La Salle ACM. 
-          I was also involved in La Salle Math Club and Programming Team. 
-          In Spring 2019, I attended my first hackathon,{" "}
+          During my time at La Salle, I was the Vice President of La Salle ACM.
+          I was also involved in La Salle Math Club and Programming Team. In
+          Spring 2019, I attended my first hackathon,{" "}
           <a href="https://hackwcu.org/" className="link-p">
             HackWCU
           </a>
