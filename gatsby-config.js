@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Shania Kiat`,
-    description: `I am an Application Engineer at Vanguard. I recently graduated with my computer science degree from La Salle University. I’m passionate about delivering high performance and intuitive design of web application to the users.`,
+    description: `I am a recent graduate from La Salle University. I received my Bachelor's in Computer Science and minored in Mathematics. I am passionate about delivering high performance and intuitive design of web application to the users.`,
     author: `@shaniakiat`,
     url: "https://www.shaniakiat.dev", // No trailing slash allowed!
     image: "static/images/v3.png", // Path to your image you placed in the 'static' folder

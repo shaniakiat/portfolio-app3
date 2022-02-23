@@ -17,14 +17,14 @@ function Home() {
   return (
     <section className="hero">
       <div className="content">
-        <h1 className="full-name" ref={el => (stagger1 = el)}>
+        <p className="my-desc" ref={el => (stagger1 = el)}>
+          Hello! I am
+        </p>
+        <h1 className="full-name" ref={el => (stagger2 = el)}>
           Shania Kiat
         </h1>
-        <h2 className="my-title" ref={el => (stagger2 = el)}>
-          Application Engineer
-        </h2>
         <p className="my-desc" ref={el => (stagger3 = el)}>
-        2021 Technology Leadership Program (TLP) Participant at Vanguard.
+          I am a Software Engineer with a frontend development experience including Angular 8+ and React
         </p>
         <span ref={el => (stagger4 = el)}>
           <svg

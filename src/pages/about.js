@@ -11,16 +11,15 @@ const About = () => (
       <Fade left>
         <h1 className="title">About Me</h1>
         <p>
-          I'm currently in the 2021 Technology Leadership Program as an
-          Application Engineer at{" "}
-          <a href="https://vanguard.com" className="link-p">
-            Vanguard.
-          </a>{" "}
           I recently graduated with my computer science degree from{" "}
           <a href="https://lasalle.edu" className="link-p">
             La Salle University
           </a>{" "}
-          after completing two internships and one undergraduate research.
+          after completing two internships and one undergraduate research. I'm
+          currently working as a Software Engineer at{" "}
+          <a href="https://vanguard.com" className="link-p">
+            Vanguard.
+          </a>
           <br />
           <br />
           I’m passionate about delivering high-performance and intuitive design

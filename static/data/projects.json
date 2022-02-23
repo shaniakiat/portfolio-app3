@@ -19,21 +19,6 @@
         ]
     },
     {
-        "title": "Peronal Website V2",
-        "description": "Second iteration of my personal website built with Gatsby and hosted on Netlify.",
-        "link": "https://shaniakiat.netlify.app",
-        "image": {
-            "name": "V2",
-            "src": "../images/v2.png"
-        },
-        "stack": [
-            "Gatsby",
-            "JS",
-            "CSS",
-            "Netlify"
-        ]
-    },
-    {
         "title": "Gratis",
         "description": "Gratis helps connect local Philadelphia restaurants with surplus food to shelters in the area to provide food for those in need.",
         "link": "https://devpost.com/software/gratis",
@@ -46,6 +31,21 @@
             "Express.js",
             "React",
             "Node.js"
+        ]
+    },
+    {
+        "title": "Peronal Website V2",
+        "description": "Second iteration of my personal website built with Gatsby and hosted on Netlify.",
+        "link": "https://shaniakiat.netlify.app",
+        "image": {
+            "name": "V2",
+            "src": "../images/v2.png"
+        },
+        "stack": [
+            "Gatsby",
+            "JS",
+            "CSS",
+            "Netlify"
         ]
     }
 ]

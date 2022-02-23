@@ -39,33 +39,6 @@ const Resume = () => (
                     </div>
                   </div>
                 </div>
-                <div className="courses">
-                  <h4>Relevant Coursework</h4>
-                  <div className="content">
-                    <ul className="description">
-                      <li>Object Programming</li>
-                      <li>Introduction to Data Structures and Algorithms</li>
-                      <li>Software Engineering</li>
-                      <li>Project Implementation</li>
-                      <li>Theory of Algorithms</li>
-                      <li>Language Theory and Design</li>
-                      <li>Computer Electronics</li>
-                      <li>Data Communication Networks</li>
-                      <li>Computer Architecture</li>
-                      <li>Operating Systems</li>
-                      <li>Client-Side Scripting</li>
-                      <li>Open-Source App Development</li>
-                      <li>Database Management Systems</li>
-                      <li>Multivariable Calculus</li>
-                      <li>Linear Algebra and Applications</li>
-                      <li>Foundations of Mathematics</li>
-                      <li>Probablilty and Statistics I</li>
-                      <li>Complex Variables</li>
-                      <li>General Physics I</li>
-                      <li>General Physics II</li>
-                    </ul>
-                  </div>
-                </div>
                 <div className="experience">
                   <h4>Experience</h4>
                   <div className="content">
@@ -84,7 +57,7 @@ const Resume = () => (
                         </div>
                       </div>
                       <div className="position-title">
-                        Application Development Intern
+                        Software Engineering Intern
                       </div>
                       <ul className="description">
                         <li>
@@ -306,7 +279,7 @@ const Resume = () => (
                     <div className="project-item">
                       <a
                         className="project-title"
-                        href="http://www.virtualchef.live/"
+                        href="https://vast-garden-15712.herokuapp.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -345,6 +318,33 @@ const Resume = () => (
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <div className="courses">
+                  <h4>Relevant Coursework</h4>
+                  <div className="content">
+                    <ul className="description">
+                      <li>Object Programming</li>
+                      <li>Introduction to Data Structures and Algorithms</li>
+                      <li>Software Engineering</li>
+                      <li>Project Implementation</li>
+                      <li>Theory of Algorithms</li>
+                      <li>Language Theory and Design</li>
+                      <li>Computer Electronics</li>
+                      <li>Data Communication Networks</li>
+                      <li>Computer Architecture</li>
+                      <li>Operating Systems</li>
+                      <li>Client-Side Scripting</li>
+                      <li>Open-Source App Development</li>
+                      <li>Database Management Systems</li>
+                      <li>Multivariable Calculus</li>
+                      <li>Linear Algebra and Applications</li>
+                      <li>Foundations of Mathematics</li>
+                      <li>Probablilty and Statistics I</li>
+                      <li>Complex Variables</li>
+                      <li>General Physics I</li>
+                      <li>General Physics II</li>
+                    </ul>
                   </div>
                 </div>
               </div>
