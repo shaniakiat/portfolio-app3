@@ -18,31 +18,35 @@ function Home() {
     <section className="hero">
       <div className="content">
         <p className="my-desc" ref={el => (stagger1 = el)}>
-          Hello! I am
+          Hello!
+          <span
+            role="img"
+            aria-label="helo-emoji"
+            aria-labelledby="hello-emoji"
+          >
+            👋🏼
+          </span>{" "}
+          My name is
         </p>
         <h1 className="full-name" ref={el => (stagger2 = el)}>
           Shania Kiat
         </h1>
         <p className="my-desc" ref={el => (stagger3 = el)}>
-          I am a Software Engineer with a frontend development experience including Angular 8+ and React
+          I am a Software Engineer with a frontend development experience
+          including Angular 8+ and React
         </p>
+        <br/>
         <span ref={el => (stagger4 = el)}>
-          <svg
-            className="scroll"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="arrow-down"
-            role="img"
-            viewBox="0 0 448 512"
-            ref={el => (yoyo = el)}
-          >
-            <path
-              className="arrow"
-              fill="currentColor"
-              d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"
-            ></path>
-          </svg>
+          <span className="resume">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-p networks"
+            >
+              Resume
+            </a>
+          </span>
         </span>
       </div>
       <svg

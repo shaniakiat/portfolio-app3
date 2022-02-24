@@ -7,7 +7,7 @@ const Footer = () => (
     © {new Date().getFullYear()}, Designed by
     {` `}
     <a href="https://www.shaniakiat.dev">
-      Shania Kiat <span>👩🏻‍💻☕</span>
+      Shania Kiat <span role="img" aria-label="emoji" aria-labelledby="emoji">👩🏻‍💻☕</span>
     </a>
   </div>
 )

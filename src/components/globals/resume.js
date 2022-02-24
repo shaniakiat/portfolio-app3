@@ -220,7 +220,7 @@ const Resume = () => (
                    
                     <div className="achivement">
                       <span>
-                        🏆 1st Place Winner of Major League Hacking's Hack WCU
+                      <span role="img" aria-label="emoji" aria-labelledby="emoji">🏆 </span>1st Place Winner of Major League Hacking's Hack WCU
                         Hackathon 2019 &nbsp;
                       </span>
 
