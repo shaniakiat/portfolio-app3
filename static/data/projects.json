@@ -2,7 +2,7 @@
     {
         "title": "Virtual Chef",
         "description": "Full-stack web application that suggests new foods using neural networks.",
-        "link": "https://vast-garden-15712.herokuapp.com",
+        "link": "https://virtual-chef.herokuapp.com",
         "image": {
             "name": "Virtual Chef",
             "src": "../images/virtualchef2.png"

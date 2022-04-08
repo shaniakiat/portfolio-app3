@@ -279,7 +279,7 @@ const Resume = () => (
                     <div className="project-item">
                       <a
                         className="project-title"
-                        href="https://vast-garden-15712.herokuapp.com"
+                        href="https://virtual-chef.herokuapp.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
